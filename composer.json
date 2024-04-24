@@ -1,0 +1,33 @@
+{
+  "name": "pedhot-dev/carbon",
+  "type": "library",
+  "description": "A simple API extension for DateTime.",
+  "keywords": [
+    "date",
+    "time",
+    "DateTime"
+  ],
+  "homepage": "http://carbon.nesbot.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brian Nesbitt",
+      "email": "brian@nesbot.com",
+      "homepage": "http://nesbot.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "extra": {
+    "virion": {
+        "spec": "3.0",
+        "namespace-root": "Nesbot\\Carbon"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+name: Carbon
+description: A simple API extension for DateTime. [Version 1.17.0 instead]
+version: 0.0.1
+antigen: Nesbot\Carbon
+api: 5.0.0
+authors:
+  - Brian Nesbitt
